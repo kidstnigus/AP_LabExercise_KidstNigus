@@ -1,0 +1,13 @@
+/* Ensure the text is light gray when dark mode is on */
+.dark-menu-bar .menu .label {
+    -fx-text-fill: #b9bbbe; 
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 13px;
+}
+
+/* Ensure the text is dark charcoal when light mode is on */
+.light-menu-bar .menu .label {
+    -fx-text-fill: #232323; 
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 13px;
+}
